@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0C6A8DE3-D560-45B8-BE33-0B2D820B863E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>wind</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E27689D1A70AC88DB261367B511477987962E56C</key>
+		<string>https://github.com/lalizlabeth/iOS-wind-app.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>wind.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E27689D1A70AC88DB261367B511477987962E56C</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/lalizlabeth/iOS-wind-app.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E27689D1A70AC88DB261367B511477987962E56C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E27689D1A70AC88DB261367B511477987962E56C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>wind</string>
+		</dict>
+	</array>
+</dict>
+</plist>
