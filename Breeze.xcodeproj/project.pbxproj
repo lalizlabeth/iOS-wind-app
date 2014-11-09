@@ -31,14 +31,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		551F6D931A1009E8001D558A /* wind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		551F6D931A1009E8001D558A /* Breeze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Breeze.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		551F6D971A1009E8001D558A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		551F6D981A1009E8001D558A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		551F6D9A1A1009E8001D558A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		551F6D9D1A1009E8001D558A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		551F6D9F1A1009E8001D558A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		551F6DA21A1009E8001D558A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		551F6DA81A1009E8001D558A /* windTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = windTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		551F6DA81A1009E8001D558A /* BreezeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreezeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		551F6DAD1A1009E8001D558A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		551F6DAE1A1009E8001D558A /* windTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = windTests.swift; sourceTree = "<group>"; };
 		551F6DEA1A1016D4001D558A /* RangeSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RangeSlider.swift; path = wind/RangeSlider.swift; sourceTree = "<group>"; };
@@ -81,8 +81,8 @@
 		551F6D941A1009E8001D558A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				551F6D931A1009E8001D558A /* wind.app */,
-				551F6DA81A1009E8001D558A /* windTests.xctest */,
+				551F6D931A1009E8001D558A /* Breeze.app */,
+				551F6DA81A1009E8001D558A /* BreezeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,9 +130,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		551F6D921A1009E8001D558A /* wind */ = {
+		551F6D921A1009E8001D558A /* Breeze */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 551F6DB21A1009E8001D558A /* Build configuration list for PBXNativeTarget "wind" */;
+			buildConfigurationList = 551F6DB21A1009E8001D558A /* Build configuration list for PBXNativeTarget "Breeze" */;
 			buildPhases = (
 				551F6D8F1A1009E8001D558A /* Sources */,
 				551F6D901A1009E8001D558A /* Frameworks */,
@@ -142,14 +142,14 @@
 			);
 			dependencies = (
 			);
-			name = wind;
+			name = Breeze;
 			productName = wind;
-			productReference = 551F6D931A1009E8001D558A /* wind.app */;
+			productReference = 551F6D931A1009E8001D558A /* Breeze.app */;
 			productType = "com.apple.product-type.application";
 		};
-		551F6DA71A1009E8001D558A /* windTests */ = {
+		551F6DA71A1009E8001D558A /* BreezeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 551F6DB51A1009E8001D558A /* Build configuration list for PBXNativeTarget "windTests" */;
+			buildConfigurationList = 551F6DB51A1009E8001D558A /* Build configuration list for PBXNativeTarget "BreezeTests" */;
 			buildPhases = (
 				551F6DA41A1009E8001D558A /* Sources */,
 				551F6DA51A1009E8001D558A /* Frameworks */,
@@ -160,9 +160,9 @@
 			dependencies = (
 				551F6DAA1A1009E8001D558A /* PBXTargetDependency */,
 			);
-			name = windTests;
+			name = BreezeTests;
 			productName = windTests;
-			productReference = 551F6DA81A1009E8001D558A /* windTests.xctest */;
+			productReference = 551F6DA81A1009E8001D558A /* BreezeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -184,7 +184,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 551F6D8E1A1009E8001D558A /* Build configuration list for PBXProject "wind" */;
+			buildConfigurationList = 551F6D8E1A1009E8001D558A /* Build configuration list for PBXProject "Breeze" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -197,8 +197,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				551F6D921A1009E8001D558A /* wind */,
-				551F6DA71A1009E8001D558A /* windTests */,
+				551F6D921A1009E8001D558A /* Breeze */,
+				551F6DA71A1009E8001D558A /* BreezeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -251,7 +251,7 @@
 /* Begin PBXTargetDependency section */
 		551F6DAA1A1009E8001D558A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 551F6D921A1009E8001D558A /* wind */;
+			target = 551F6D921A1009E8001D558A /* Breeze */;
 			targetProxy = 551F6DA91A1009E8001D558A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -361,7 +361,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = wind/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Breeze;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -374,7 +374,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = wind/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Breeze;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -393,7 +393,7 @@
 				);
 				INFOPLIST_FILE = windTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BreezeTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wind.app/wind";
 			};
 			name = Debug;
@@ -408,7 +408,7 @@
 				);
 				INFOPLIST_FILE = windTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BreezeTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wind.app/wind";
 			};
 			name = Release;
@@ -416,7 +416,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		551F6D8E1A1009E8001D558A /* Build configuration list for PBXProject "wind" */ = {
+		551F6D8E1A1009E8001D558A /* Build configuration list for PBXProject "Breeze" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				551F6DB01A1009E8001D558A /* Debug */,
@@ -425,7 +425,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		551F6DB21A1009E8001D558A /* Build configuration list for PBXNativeTarget "wind" */ = {
+		551F6DB21A1009E8001D558A /* Build configuration list for PBXNativeTarget "Breeze" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				551F6DB31A1009E8001D558A /* Debug */,
@@ -434,7 +434,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		551F6DB51A1009E8001D558A /* Build configuration list for PBXNativeTarget "windTests" */ = {
+		551F6DB51A1009E8001D558A /* Build configuration list for PBXNativeTarget "BreezeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				551F6DB61A1009E8001D558A /* Debug */,
