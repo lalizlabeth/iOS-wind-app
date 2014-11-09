@@ -16,8 +16,6 @@
 		551F6DEB1A1016D4001D558A /* RangeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551F6DEA1A1016D4001D558A /* RangeSlider.swift */; };
 		551F6DED1A10193F001D558A /* RangeSliderThumbLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551F6DEC1A10193F001D558A /* RangeSliderThumbLayer.swift */; };
 		551F6DEF1A101AC4001D558A /* RangeSliderTrackLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551F6DEE1A101AC4001D558A /* RangeSliderTrackLayer.swift */; };
-		5522D7701A10236A00DD309D /* breezeLaunch-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5522D76F1A10236A00DD309D /* breezeLaunch-568h@2x.png */; };
-		5522D7741A1023DC00DD309D /* breezeLaunch in Resources */ = {isa = PBXBuildFile; fileRef = 5522D7731A1023DC00DD309D /* breezeLaunch */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,8 +42,6 @@
 		551F6DEA1A1016D4001D558A /* RangeSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RangeSlider.swift; path = wind/RangeSlider.swift; sourceTree = "<group>"; };
 		551F6DEC1A10193F001D558A /* RangeSliderThumbLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeSliderThumbLayer.swift; sourceTree = "<group>"; };
 		551F6DEE1A101AC4001D558A /* RangeSliderTrackLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RangeSliderTrackLayer.swift; path = wind/RangeSliderTrackLayer.swift; sourceTree = "<group>"; };
-		5522D76F1A10236A00DD309D /* breezeLaunch-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "breezeLaunch-568h@2x.png"; sourceTree = "<group>"; };
-		5522D7731A1023DC00DD309D /* breezeLaunch */ = {isa = PBXFileReference; lastKnownFileType = file; name = breezeLaunch; path = ../../../../Desktop/breezeLaunch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,8 +86,6 @@
 		551F6D951A1009E8001D558A /* wind */ = {
 			isa = PBXGroup;
 			children = (
-				5522D7731A1023DC00DD309D /* breezeLaunch */,
-				5522D76F1A10236A00DD309D /* breezeLaunch-568h@2x.png */,
 				551F6D981A1009E8001D558A /* AppDelegate.swift */,
 				551F6D9A1A1009E8001D558A /* ViewController.swift */,
 				551F6D9C1A1009E8001D558A /* Main.storyboard */,
@@ -208,8 +202,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5522D7741A1023DC00DD309D /* breezeLaunch in Resources */,
-				5522D7701A10236A00DD309D /* breezeLaunch-568h@2x.png in Resources */,
 				551F6D9E1A1009E8001D558A /* Main.storyboard in Resources */,
 				551F6DA31A1009E8001D558A /* LaunchScreen.xib in Resources */,
 				551F6DA01A1009E8001D558A /* Images.xcassets in Resources */,

@@ -16,19 +16,19 @@ class RangeSlider: UIControl {
         }
     }
     
-    var maximumValue: Double = 20.0 {
+    var maximumValue: Double = 1.0 {
         didSet {
             updateLayerFrames()
         }
     }
     
-    var lowerValue: Double = 5.0 {
+    var lowerValue: Double = 0.2 {
         didSet {
             updateLayerFrames()
         }
     }
     
-    var upperValue: Double = 15.0 {
+    var upperValue: Double = 0.8 {
         didSet {
             updateLayerFrames()
         }
