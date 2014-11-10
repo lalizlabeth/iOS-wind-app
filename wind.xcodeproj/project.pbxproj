@@ -11,11 +11,13 @@
 		551F6D9B1A1009E8001D558A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551F6D9A1A1009E8001D558A /* ViewController.swift */; };
 		551F6D9E1A1009E8001D558A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 551F6D9C1A1009E8001D558A /* Main.storyboard */; };
 		551F6DA01A1009E8001D558A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 551F6D9F1A1009E8001D558A /* Images.xcassets */; };
-		551F6DA31A1009E8001D558A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 551F6DA11A1009E8001D558A /* LaunchScreen.xib */; };
 		551F6DAF1A1009E8001D558A /* windTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551F6DAE1A1009E8001D558A /* windTests.swift */; };
 		551F6DEB1A1016D4001D558A /* RangeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551F6DEA1A1016D4001D558A /* RangeSlider.swift */; };
 		551F6DED1A10193F001D558A /* RangeSliderThumbLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551F6DEC1A10193F001D558A /* RangeSliderThumbLayer.swift */; };
 		551F6DEF1A101AC4001D558A /* RangeSliderTrackLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551F6DEE1A101AC4001D558A /* RangeSliderTrackLayer.swift */; };
+		5522D7761A10289200DD309D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5522D7751A10289200DD309D /* LaunchScreen.xib */; };
+		5522D77F1A104CC700DD309D /* breezeLaunch.png in Resources */ = {isa = PBXBuildFile; fileRef = 5522D77D1A104CC700DD309D /* breezeLaunch.png */; };
+		5522D7801A104CC700DD309D /* breezeLaunch-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5522D77E1A104CC700DD309D /* breezeLaunch-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,19 +31,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		551F6D931A1009E8001D558A /* Breeze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Breeze.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		551F6D931A1009E8001D558A /* wind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		551F6D971A1009E8001D558A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		551F6D981A1009E8001D558A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		551F6D9A1A1009E8001D558A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		551F6D9D1A1009E8001D558A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		551F6D9F1A1009E8001D558A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		551F6DA21A1009E8001D558A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		551F6DA81A1009E8001D558A /* BreezeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreezeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		551F6DA81A1009E8001D558A /* windTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = windTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		551F6DAD1A1009E8001D558A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		551F6DAE1A1009E8001D558A /* windTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = windTests.swift; sourceTree = "<group>"; };
 		551F6DEA1A1016D4001D558A /* RangeSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RangeSlider.swift; path = wind/RangeSlider.swift; sourceTree = "<group>"; };
 		551F6DEC1A10193F001D558A /* RangeSliderThumbLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeSliderThumbLayer.swift; sourceTree = "<group>"; };
 		551F6DEE1A101AC4001D558A /* RangeSliderTrackLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RangeSliderTrackLayer.swift; path = wind/RangeSliderTrackLayer.swift; sourceTree = "<group>"; };
+		5522D7751A10289200DD309D /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		5522D77D1A104CC700DD309D /* breezeLaunch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = breezeLaunch.png; path = ../../../Downloads/breezeLaunch.png; sourceTree = "<group>"; };
+		5522D77E1A104CC700DD309D /* breezeLaunch-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "breezeLaunch-568h@2x.png"; path = "../../../Downloads/breezeLaunch-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,8 @@
 		551F6D8A1A1009E8001D558A = {
 			isa = PBXGroup;
 			children = (
+				5522D77D1A104CC700DD309D /* breezeLaunch.png */,
+				5522D77E1A104CC700DD309D /* breezeLaunch-568h@2x.png */,
 				551F6DEA1A1016D4001D558A /* RangeSlider.swift */,
 				551F6DEC1A10193F001D558A /* RangeSliderThumbLayer.swift */,
 				551F6DEE1A101AC4001D558A /* RangeSliderTrackLayer.swift */,
@@ -77,8 +83,8 @@
 		551F6D941A1009E8001D558A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				551F6D931A1009E8001D558A /* Breeze.app */,
-				551F6DA81A1009E8001D558A /* BreezeTests.xctest */,
+				551F6D931A1009E8001D558A /* wind.app */,
+				551F6DA81A1009E8001D558A /* windTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,8 +96,8 @@
 				551F6D9A1A1009E8001D558A /* ViewController.swift */,
 				551F6D9C1A1009E8001D558A /* Main.storyboard */,
 				551F6D9F1A1009E8001D558A /* Images.xcassets */,
-				551F6DA11A1009E8001D558A /* LaunchScreen.xib */,
 				551F6D961A1009E8001D558A /* Supporting Files */,
+				5522D7751A10289200DD309D /* LaunchScreen.xib */,
 			);
 			path = wind;
 			sourceTree = "<group>";
@@ -124,9 +130,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		551F6D921A1009E8001D558A /* Breeze */ = {
+		551F6D921A1009E8001D558A /* wind */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 551F6DB21A1009E8001D558A /* Build configuration list for PBXNativeTarget "Breeze" */;
+			buildConfigurationList = 551F6DB21A1009E8001D558A /* Build configuration list for PBXNativeTarget "wind" */;
 			buildPhases = (
 				551F6D8F1A1009E8001D558A /* Sources */,
 				551F6D901A1009E8001D558A /* Frameworks */,
@@ -136,14 +142,14 @@
 			);
 			dependencies = (
 			);
-			name = Breeze;
+			name = wind;
 			productName = wind;
-			productReference = 551F6D931A1009E8001D558A /* Breeze.app */;
+			productReference = 551F6D931A1009E8001D558A /* wind.app */;
 			productType = "com.apple.product-type.application";
 		};
-		551F6DA71A1009E8001D558A /* BreezeTests */ = {
+		551F6DA71A1009E8001D558A /* windTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 551F6DB51A1009E8001D558A /* Build configuration list for PBXNativeTarget "BreezeTests" */;
+			buildConfigurationList = 551F6DB51A1009E8001D558A /* Build configuration list for PBXNativeTarget "windTests" */;
 			buildPhases = (
 				551F6DA41A1009E8001D558A /* Sources */,
 				551F6DA51A1009E8001D558A /* Frameworks */,
@@ -154,9 +160,9 @@
 			dependencies = (
 				551F6DAA1A1009E8001D558A /* PBXTargetDependency */,
 			);
-			name = BreezeTests;
+			name = windTests;
 			productName = windTests;
-			productReference = 551F6DA81A1009E8001D558A /* BreezeTests.xctest */;
+			productReference = 551F6DA81A1009E8001D558A /* windTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -178,7 +184,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 551F6D8E1A1009E8001D558A /* Build configuration list for PBXProject "Breeze" */;
+			buildConfigurationList = 551F6D8E1A1009E8001D558A /* Build configuration list for PBXProject "wind" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -191,8 +197,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				551F6D921A1009E8001D558A /* Breeze */,
-				551F6DA71A1009E8001D558A /* BreezeTests */,
+				551F6D921A1009E8001D558A /* wind */,
+				551F6DA71A1009E8001D558A /* windTests */,
 			);
 		};
 /* End PBXProject section */
@@ -202,9 +208,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5522D7801A104CC700DD309D /* breezeLaunch-568h@2x.png in Resources */,
+				5522D7761A10289200DD309D /* LaunchScreen.xib in Resources */,
 				551F6D9E1A1009E8001D558A /* Main.storyboard in Resources */,
-				551F6DA31A1009E8001D558A /* LaunchScreen.xib in Resources */,
 				551F6DA01A1009E8001D558A /* Images.xcassets in Resources */,
+				5522D77F1A104CC700DD309D /* breezeLaunch.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,7 +251,7 @@
 /* Begin PBXTargetDependency section */
 		551F6DAA1A1009E8001D558A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 551F6D921A1009E8001D558A /* Breeze */;
+			target = 551F6D921A1009E8001D558A /* wind */;
 			targetProxy = 551F6DA91A1009E8001D558A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -255,14 +263,6 @@
 				551F6D9D1A1009E8001D558A /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		551F6DA11A1009E8001D558A /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				551F6DA21A1009E8001D558A /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -353,7 +353,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = wind/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = Breeze;
+				PRODUCT_NAME = wind;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -366,7 +366,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = wind/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = Breeze;
+				PRODUCT_NAME = wind;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -385,7 +385,7 @@
 				);
 				INFOPLIST_FILE = windTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = BreezeTests;
+				PRODUCT_NAME = windTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wind.app/wind";
 			};
 			name = Debug;
@@ -400,7 +400,7 @@
 				);
 				INFOPLIST_FILE = windTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = BreezeTests;
+				PRODUCT_NAME = windTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wind.app/wind";
 			};
 			name = Release;
@@ -408,7 +408,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		551F6D8E1A1009E8001D558A /* Build configuration list for PBXProject "Breeze" */ = {
+		551F6D8E1A1009E8001D558A /* Build configuration list for PBXProject "wind" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				551F6DB01A1009E8001D558A /* Debug */,
@@ -417,7 +417,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		551F6DB21A1009E8001D558A /* Build configuration list for PBXNativeTarget "Breeze" */ = {
+		551F6DB21A1009E8001D558A /* Build configuration list for PBXNativeTarget "wind" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				551F6DB31A1009E8001D558A /* Debug */,
@@ -426,7 +426,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		551F6DB51A1009E8001D558A /* Build configuration list for PBXNativeTarget "BreezeTests" */ = {
+		551F6DB51A1009E8001D558A /* Build configuration list for PBXNativeTarget "windTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				551F6DB61A1009E8001D558A /* Debug */,

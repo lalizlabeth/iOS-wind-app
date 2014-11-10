@@ -9,19 +9,25 @@
 import UIKit
 
 class ViewController: UIViewController {
+
     let rangeSlider = RangeSlider(frame: CGRectZero)
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.navigationController?.navigationBar.barTintColor = UIColor.blackColor()
-        self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.orangeColor()]
-        
-        view.addSubview(rangeSlider)
-        
-        rangeSlider.addTarget(self, action: "rangeSliderValueChanged:", forControlEvents: .ValueChanged)
+        self.navigationItem.title = "Breeze"
         
     }
+    
+    @IBAction func openButton(sender: UIButton) {
+        self.speed.text = "hello"
+    }
+    
+    @IBAction func closeButton(sender: UIButton) {
+        
+    }
+    
+    @IBOutlet weak var speed: UILabel!
     
     override func viewDidLayoutSubviews() {
         let margin: CGFloat = 20.0

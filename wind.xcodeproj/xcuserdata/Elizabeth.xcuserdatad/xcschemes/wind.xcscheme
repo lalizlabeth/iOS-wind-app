@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "551F6D921A1009E8001D558A"
                BuildableName = "Breeze.app"
-               BlueprintName = "Breeze"
-               ReferencedContainer = "container:Breeze.xcodeproj">
+               BlueprintName = "wind"
+               ReferencedContainer = "container:wind.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -30,8 +30,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "551F6DA71A1009E8001D558A"
                BuildableName = "BreezeTests.xctest"
-               BlueprintName = "BreezeTests"
-               ReferencedContainer = "container:Breeze.xcodeproj">
+               BlueprintName = "windTests"
+               ReferencedContainer = "container:wind.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -48,8 +48,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "551F6DA71A1009E8001D558A"
                BuildableName = "BreezeTests.xctest"
-               BlueprintName = "BreezeTests"
-               ReferencedContainer = "container:Breeze.xcodeproj">
+               BlueprintName = "windTests"
+               ReferencedContainer = "container:wind.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -58,8 +58,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "551F6D921A1009E8001D558A"
             BuildableName = "Breeze.app"
-            BlueprintName = "Breeze"
-            ReferencedContainer = "container:Breeze.xcodeproj">
+            BlueprintName = "wind"
+            ReferencedContainer = "container:wind.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,8 +77,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "551F6D921A1009E8001D558A"
             BuildableName = "Breeze.app"
-            BlueprintName = "Breeze"
-            ReferencedContainer = "container:Breeze.xcodeproj">
+            BlueprintName = "wind"
+            ReferencedContainer = "container:wind.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,8 +95,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "551F6D921A1009E8001D558A"
             BuildableName = "Breeze.app"
-            BlueprintName = "Breeze"
-            ReferencedContainer = "container:Breeze.xcodeproj">
+            BlueprintName = "wind"
+            ReferencedContainer = "container:wind.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
