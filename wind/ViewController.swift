@@ -12,18 +12,29 @@ import CoreLocation
 
 class ViewController: UIViewController, CBPeripheralDelegate, CBCentralManagerDelegate {
     
-    let udid = "7CDE487F-D2E1-79E0-66C2-0447A8F98B8D"
-    
+    let uuid = "7CDE487F-D2E1-79E0-66C2-0447A8F98B8D"
     var blueToothReady = false
+    var centralManager = CBCentralManager() // Defining central
+    var peripheralManager = CBPeripheralManager() // Defining peripheral
+
     
-    var centralManager = CBCentralManager()
-    var peripheralManager = CBPeripheralManager()
+    @IBOutlet weak var imageView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         self.navigationItem.title = "Breeze"
+    }
+    
+    // Invoked when you discover the characteristics of a specified service.
+    func peripheral(peripheral: CBPeripheral!, didDiscoverCharacteristicsForService service: CBService!, error: NSError!)
+    {
+        var myCharacteristic = CBCharacteristic()
         
+        for myCharacteristic in service.characteristics {
+            
+            peripheral.readValueForCharacteristic(myCharacteristic as CBCharacteristic)
+            
+        }
     }
     
     func centralManagerDidUpdateState(central: CBCentralManager!) {
@@ -60,15 +71,79 @@ class ViewController: UIViewController, CBPeripheralDelegate, CBCentralManagerDe
             break
         }
     }
+    
+    func centralManager(central: CBCentralManager!,
+        didDiscoverPeripheral peripheral: CBPeripheral!,
+        advertisementData: [NSObject : AnyObject]!,
+        RSSI: NSNumber!) {
+            
+            central.connectPeripheral(peripheral, options: nil)
+            
+            
+            var curDevice = UIDevice.currentDevice()
+            
+            // Hardware beacon
+            println("PERIPHERAL NAME: \(peripheral.name)\n AdvertisementData: \(advertisementData)\n RSSI: \(RSSI)\n")
+            
+            println("UUID DESCRIPTION: \(uuid)\n")
+            
+            println("IDENTIFIER: \(peripheral.identifier)\n")
+            
+            // stop scanning, saves the battery
+            centralManager.stopScan()
+            
+    }
 
     
+    func peripheralManagerDidUpdateState(central: CBPeripheralManager!) {
+        switch peripheralManager.state {
+            
+        case .PoweredOff:
+            sensorData.text = "Peripheral - CoreBluetooth BLE hardware is powered off"
+            break
+            
+        case .PoweredOn:
+            sensorData.text = "Peripheral - CoreBluetooth BLE hardware is powered on and ready"
+            break
+            
+        case .Resetting:
+            sensorData.text = "Peripheral - CoreBluetooth BLE hardware is resetting"
+            break
+            
+        case .Unauthorized:
+            sensorData.text = "Peripheral - CoreBluetooth BLE state is unauthorized"
+            break
+            
+        case .Unknown:
+            sensorData.text = "Peripheral - CoreBluetooth BLE state is unknown"
+            break
+            
+        case .Unsupported:
+            sensorData.text = "Peripheral - CoreBluetooth BLE hardware is unsupported on this platform"
+            break
+            
+        default:
+            break
+        }
+        
+    }
+
+    
+    func openWindow() {
+        discoverDevices()
+    }
+    
+    func discoverDevices() {
+        println("discovering devices")
+        centralManager.scanForPeripheralsWithServices(nil, options: nil)
+    }
+    
+    @IBOutlet weak var sensorData: UILabel!
     @IBAction func openButton(sender: UIButton) {
-        self.speed.text = "open"
+        openWindow()
     }
     
     @IBAction func closeButton(sender: UIButton) {
-        self.speed.text = "close"
-        
     }
     
     @IBOutlet weak var speed: UILabel!

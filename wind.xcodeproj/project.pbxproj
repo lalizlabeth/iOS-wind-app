@@ -12,9 +12,6 @@
 		551F6D9E1A1009E8001D558A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 551F6D9C1A1009E8001D558A /* Main.storyboard */; };
 		551F6DA01A1009E8001D558A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 551F6D9F1A1009E8001D558A /* Images.xcassets */; };
 		551F6DAF1A1009E8001D558A /* windTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551F6DAE1A1009E8001D558A /* windTests.swift */; };
-		551F6DEB1A1016D4001D558A /* RangeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551F6DEA1A1016D4001D558A /* RangeSlider.swift */; };
-		551F6DED1A10193F001D558A /* RangeSliderThumbLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551F6DEC1A10193F001D558A /* RangeSliderThumbLayer.swift */; };
-		551F6DEF1A101AC4001D558A /* RangeSliderTrackLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551F6DEE1A101AC4001D558A /* RangeSliderTrackLayer.swift */; };
 		5522D7761A10289200DD309D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5522D7751A10289200DD309D /* LaunchScreen.xib */; };
 		5522D77F1A104CC700DD309D /* breezeLaunch.png in Resources */ = {isa = PBXBuildFile; fileRef = 5522D77D1A104CC700DD309D /* breezeLaunch.png */; };
 		5522D7801A104CC700DD309D /* breezeLaunch-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5522D77E1A104CC700DD309D /* breezeLaunch-568h@2x.png */; };
@@ -40,12 +37,11 @@
 		551F6DA81A1009E8001D558A /* windTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = windTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		551F6DAD1A1009E8001D558A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		551F6DAE1A1009E8001D558A /* windTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = windTests.swift; sourceTree = "<group>"; };
-		551F6DEA1A1016D4001D558A /* RangeSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RangeSlider.swift; path = wind/RangeSlider.swift; sourceTree = "<group>"; };
-		551F6DEC1A10193F001D558A /* RangeSliderThumbLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeSliderThumbLayer.swift; sourceTree = "<group>"; };
-		551F6DEE1A101AC4001D558A /* RangeSliderTrackLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RangeSliderTrackLayer.swift; path = wind/RangeSliderTrackLayer.swift; sourceTree = "<group>"; };
 		5522D7751A10289200DD309D /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		5522D77D1A104CC700DD309D /* breezeLaunch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = breezeLaunch.png; path = ../../../Downloads/breezeLaunch.png; sourceTree = "<group>"; };
 		5522D77E1A104CC700DD309D /* breezeLaunch-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "breezeLaunch-568h@2x.png"; path = "../../../Downloads/breezeLaunch-568h@2x.png"; sourceTree = "<group>"; };
+		55DAF58F1A109D4700FF7FCB /* HRMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRMAppDelegate.h; sourceTree = "<group>"; };
+		55DAF5901A109D7D00FF7FCB /* wind-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "wind-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,11 +65,9 @@
 		551F6D8A1A1009E8001D558A = {
 			isa = PBXGroup;
 			children = (
+				55DAF5901A109D7D00FF7FCB /* wind-Bridging-Header.h */,
 				5522D77D1A104CC700DD309D /* breezeLaunch.png */,
 				5522D77E1A104CC700DD309D /* breezeLaunch-568h@2x.png */,
-				551F6DEA1A1016D4001D558A /* RangeSlider.swift */,
-				551F6DEC1A10193F001D558A /* RangeSliderThumbLayer.swift */,
-				551F6DEE1A101AC4001D558A /* RangeSliderTrackLayer.swift */,
 				551F6D951A1009E8001D558A /* wind */,
 				551F6DAB1A1009E8001D558A /* windTests */,
 				551F6D941A1009E8001D558A /* Products */,
@@ -93,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				551F6D981A1009E8001D558A /* AppDelegate.swift */,
+				55DAF58F1A109D4700FF7FCB /* HRMAppDelegate.h */,
 				551F6D9A1A1009E8001D558A /* ViewController.swift */,
 				551F6D9C1A1009E8001D558A /* Main.storyboard */,
 				551F6D9F1A1009E8001D558A /* Images.xcassets */,
@@ -231,10 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				551F6D9B1A1009E8001D558A /* ViewController.swift in Sources */,
-				551F6DEF1A101AC4001D558A /* RangeSliderTrackLayer.swift in Sources */,
-				551F6DEB1A1016D4001D558A /* RangeSlider.swift in Sources */,
 				551F6D991A1009E8001D558A /* AppDelegate.swift in Sources */,
-				551F6DED1A10193F001D558A /* RangeSliderThumbLayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,12 +341,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = wind/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = wind;
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "wind-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -362,12 +357,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = wind/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = wind;
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "wind-Bridging-Header.h";
 			};
 			name = Release;
 		};

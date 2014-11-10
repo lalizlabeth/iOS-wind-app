@@ -7,6 +7,8 @@
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="gYv-St-eaE"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="wind" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
@@ -56,10 +58,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="PeH-gc-9Cf"/>
                     <connections>
+                        <outlet property="sensorData" destination="awm-qo-bDD" id="dGi-SE-qxW"/>
                         <outlet property="speed" destination="awm-qo-bDD" id="aTE-ig-rkw"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="694" y="377"/>
         </scene>
